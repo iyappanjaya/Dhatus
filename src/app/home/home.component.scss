@@ -1,0 +1,100 @@
+.sub-content {
+    display: block;
+    height: calc(100vh - 126px);
+    background: linear-gradient(180deg, #21ABE3 19.72%, rgba(33, 171, 227, 0.81) 50.98%, rgba(0, 158, 226, 0) 73.2%);
+    .product-contnet {
+        display: flex;
+        flex-direction: row;
+        .product-logo-big {
+            flex: 50%;
+            img {
+                height: calc(100vh - 126px);
+            }
+        }
+        .product-content {
+            flex: 50%;
+            display: flex;
+            flex-direction: column;
+            .text-content {
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+            }
+            .text-content-align {
+                font-family: 'branding-sf semilight';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 42px;
+                color: white;
+                line-height: 60px;
+                text-align: center;
+            }
+            .bold-text {
+                font-family: 'branding-sf';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 42px;
+                color: white;
+            }
+            .sub-text {
+                font-family: 'branding-sf';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 53px;
+                text-align: center;
+                color: rgba(1, 46, 133, 0.91);
+                margin: auto;
+            }
+            button {
+                font-family: 'branding-sf';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 30px;
+                text-align: center;
+                background-color: white;
+                color: #073A8E;
+                height: 60px;
+                border: none;
+                border-radius: 5px;
+                width: 200px;
+            }
+        }
+    }
+    .home-footer {
+        width: auto;
+        position: relative;
+        bottom: 180px;
+        .footer {
+            width: 100%;
+        }
+    }
+    .footer-images{
+        position: relative;
+        bottom: 180px;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        .footer-block1 {
+            position: relative;
+            width: 100px;
+            height: 60px;
+        }
+        .footer-block2 {
+            position: relative;
+            height: 100px;
+        }
+        .footer-block3 {
+            position: relative;
+        }
+        .footer-block4 {
+            position: relative;
+            height: 60px;
+        }
+        .footer-block5 {
+            position: relative;
+            bottom: -30px;
+        }
+    }
+}
