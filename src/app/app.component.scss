@@ -1,0 +1,47 @@
+.toolbar {
+    background-color: #21ABE3;
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'branding-sf';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    .nav-align {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        height: 40px;
+        li {
+            width: 120px;
+            margin: auto;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        
+    }
+    button {
+        font-family: "branding-sf";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        background-color: white;
+        color: #073A8E;
+        width: 180px;
+        border: none;
+        img {
+            height: 14px;
+        }
+    }
+}
+.content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
