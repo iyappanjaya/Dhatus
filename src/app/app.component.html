@@ -1,0 +1,32 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <div style="margin: auto;width: 300px;padding-left: 60px;">
+    <img src="../assets/logo.png">
+  </div>
+  <div style="flex-grow:1"></div>
+  <div>
+    <ul class="nav-align" style="width: 560px;">
+      <li>
+        <a [routerLink]="['/Home']">Home</a>
+      </li>
+      <li>
+        <a [routerLink]="['/About']">About</a>
+      </li>
+      <li>
+        <a [routerLink]="['/Contact']">Contact</a>
+      </li>
+      <li style="width: 200px;">
+        <a [routerLink]="['/Login']">Login / sign up</a>
+      </li>
+    </ul>
+    <div style="padding-left: 200px;">
+      <button type="button" class="contact" style="border-radius: 5px 0 0 5px;"><img src="../assets/Vector.png"> +91
+        98867 12268</button>
+      <button type="button" class="contact" style="border-radius: 0 5px 5px 0;"><img src="../assets/email.png">
+        info@dhatus.in</button>
+    </div>
+  </div>
+</div>
+<div class="content" role="main">
+  <router-outlet></router-outlet>
+</div>
